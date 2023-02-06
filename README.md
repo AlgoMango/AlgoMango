@@ -10,16 +10,27 @@
 
 ## CURRICULUM
 - 백준 문제 리스트에서 일주일에 2개 소챕터씩 진행합니다.
-- 해당 소챕터에 해당하는 백준 문제 전체와, 프로그래머스 최소 1개, 릿코드 최소 1개를 풀어옵니다.
-  - 챕터/백준 문제 리스트: https://ryute.tistory.com/33
+- 해당 소챕터에 해당하는 백준 문제 10개(챕터별 5개씩), 프로그래머스 최소 1개, 릿코드 최소 1개를 풀어옵니다.
+  - 문제는 
+  - 챕터/백준 문제 리스트: https://github.com/encrypted-def/basic-algo-lecture
   - 프로그래머스 고득점킷: https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit
   - 릿코드 문제 리스트: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - 개념 공부는 키워드 적힌거 보고 각자 알아서 진행합니다.
   - (추천도서: 스위프트 데이터 구조와 알고리즘)
   - (자료구조 개념 유투브 추천: https://www.youtube.com/@eleanorlim)
 
-
+## 1주차_배열
+[문제링크](https://www.acmicpc.net/workbook/view/7307)
+문제 링크에서 위에서부터 5문제
 | date   | summercat | jeremy | kyo | sunnycookie | hamo | inho |
 | -------| ----  | ----  | ----  | ----  | ----  | ----  |
-| 2.11 | ✅| ❎ |❎ | ✅| ❎ | ❎ | 
-| 2.12 | ✅| ✅ | ✅ | ✅| ✅ | ✅ |
+| 2.11  | |  | | |  |  | 
+| 2.12 | |  |  | |  |  |
+
+## 1주차_연결 리스트
+[문제링크](https://www.acmicpc.net/workbook/view/7308)
+총 3문제
+| date   | summercat | jeremy | kyo | sunnycookie | hamo | inho |
+| -------| ----  | ----  | ----  | ----  | ----  | ----  |
+| 2.11  | |  | | |  |  | 
+| 2.12 | |  |  | |  |  |
