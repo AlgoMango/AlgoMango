@@ -28,7 +28,7 @@
 
 | date   | summercat | jeremy | kyo | sunnycookie | hamo | inho |
 | -------| ----  | ----  | ----  | ----  | ----  | ----  |
-| 2.11  | |  | | |  | [알파벳개수](https://www.acmicpc.net/problem/10808)<br>[숫자의개수](https://www.acmicpc.net/problem/2577) | 
+| 2.11  | |  |3문제 ✅ | |  | [알파벳개수](https://www.acmicpc.net/problem/10808)<br>[숫자의개수](https://www.acmicpc.net/problem/2577) | 
 | 2.12 | |  |  | |  |  |
 | 2.13  | |  | | |  |  | 
 | 2.14 | |  |  | |  |  |
