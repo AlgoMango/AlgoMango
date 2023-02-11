@@ -12,15 +12,14 @@
   - 다른 사람의 풀이를 볼 때에는 읽기만 하지 말고 직접 swift로 구현해보거나, 다음날/다음주에 동일한 문제를 다시 복습합니다.
 
 ## CURRICULUM
-- 백준 문제 리스트에서 일주일에 2개 소챕터씩 진행합니다.
-- 해당 소챕터에 해당하는 백준 문제 10개(챕터별 5개씩), 프로그래머스 최소 1개, 릿코드 최소 1개를 풀어옵니다.
-  - 문제는 
+- 일주일에 2개 챕터씩 진행합니다.
+- 각 챕터에 해당하는 백준 문제 챕터별 5개, 프로그래머스 최소 1개, 릿코드 최소 1개를 풀어옵니다. 
   - 챕터/백준 문제 리스트: https://github.com/encrypted-def/basic-algo-lecture
   - 프로그래머스 고득점킷: https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit
   - 릿코드 문제 리스트: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - 개념 공부는 키워드 적힌거 보고 각자 알아서 진행합니다.
-  - (추천도서: 스위프트 데이터 구조와 알고리즘)
-  - (자료구조 개념 유투브 추천: https://www.youtube.com/@eleanorlim)
+  - 추천도서: 스위프트 데이터 구조와 알고리즘
+  - 자료구조 개념 유투브 추천: https://www.youtube.com/@eleanorlim
 
 ## 1주차
 [배열](https://www.acmicpc.net/workbook/view/7307) - 위에서부터 5문제
