@@ -1,22 +1,17 @@
 //230213_1406에디터_백준
-
 var sentence = readLine()!.map { String($0) }
-var result: [String] = []
 var cnt = Int(readLine()!)!
 
-// 시간초과 
+// 시간초과
 /*
 var cursor = sentence.count
-
  for _ in 0..<cnt {
     let input = readLine()!.split(separator: " ").map { String($0) }
     let command = input[0]
     var word: String = ""
-
     if input.count > 1 {
         word = input[1]
     }
-
     switch command {
     case "L":
         if cursor > 0 {
@@ -42,14 +37,13 @@ var cursor = sentence.count
 
 
 // [leftSentence]Cursor[rightSentence] 로 생각
-
 var leftSentence: [String] = sentence
 var rightSentence: [String] = []
 
 for _ in 0..<cnt {
-    let input = readLine()!.split(separator: " ").map { String($0) }
-
-    switch input.first {
+    let input = readLine()!
+    
+    switch input {
     case "L":
         if leftSentence.count != 0 {
             rightSentence.append(leftSentence.removeLast())
@@ -62,14 +56,14 @@ for _ in 0..<cnt {
         if leftSentence.count != 0 {
             leftSentence.removeLast()
         }
-    case "P":
-        leftSentence.append(input.last!)
     default:
-        break
+        leftSentence.append(String(input.last!))
     }
 }
 
 print(leftSentence.joined() + rightSentence.reversed().joined())
 
 
-// 왜 시간초과가 날까요....
+// 왜 시간초과가 날까..
+// let input = readLine()!.split(separator: " ").map { String($0) } 
+// split은 O(n)이기 때문에 시간초과난다.
