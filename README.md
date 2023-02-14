@@ -26,19 +26,19 @@
 
 [연결 리스트](https://www.acmicpc.net/workbook/view/7308) - 총 3문제
 
-| date 	| summercat 	| jeremy  	| kyo     	| sunnycookie 	| hamo    	| inho    	|
+| date 	| summercat 	| jeremy  	| Kyo     	| sunnycookie 	| hamo    	| inho    	|
 |------	|-----------	|---------	|---------	|-------------	|---------	|---------	|
 | 2.11 	| 3문제 ✅   	|         	| 5문제 ✅ 	|             	| 2문제 ✅ 	| 2문제 ✅ 	|
 | 2.12 	| 1문제 ✅   	|         	| 1문제 ✅ 	|             	|         	|         	|
 | 2.13 	|           	| 1문제 ✅ 	| 1문제 ✅ 	|             	|         	|         	|
-| 2.14 	|           	|         	|         	|             	| 3문제 ✅ 	|         	|
+| 2.14 	|           	|         	| 2문제 ✅   |             	| 3문제 ✅ 	|         	|
 | 2.15 	|           	|         	|         	|             	|         	|         	|
 | 2.16 	|           	|         	|         	|             	|         	|         	|
 
 
 ## 2주차
 
-| date   | summercat | jeremy | kyo | sunnycookie | hamo | inho |
+| date   | summercat | jeremy | Kyo | sunnycookie | hamo | inho |
 | -------| ----  | ----  | ----  | ----  | ----  | ----  |
 |   | |  | | |  |  | 
 |  | |  |  | |  |  |
