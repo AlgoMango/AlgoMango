@@ -3,6 +3,19 @@
 
 import Foundation
 
+// 시간단축 16ms
+let line = readLine()!.utf8
+var result = Array(repeating: 0, count: 26)
+
+line.forEach { number in
+    let aNumber = Int(Character("a").asciiValue!)
+    result[Int(number) - aNumber] += 1
+}
+
+print(result.map {String($0)}.joined(separator: " "))
+
+
+// (처음통과 답안) 함수로 만들어서 풀기 - 24ms
 let lines = readLine()!
 
 func checkAlphabetCount(line: String) -> String {
