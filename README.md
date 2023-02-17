@@ -37,8 +37,29 @@
 
 
 ## 2주차
+[스택](https://www.acmicpc.net/workbook/view/7309) - 위에서부터 3문제 + 골드 1개 도전!
 
-| date   | summercat | jeremy | Kyo | sunnycookie | hamo | inho |
-| -------| ----  | ----  | ----  | ----  | ----  | ----  |
-|   | |  | | |  |  | 
-|  | |  |  | |  |  |
+[큐](https://www.acmicpc.net/workbook/view/7310) - 위에서부터 3문제
+
+[프로그래머스](https://school.programmers.co.kr/learn/courses/30/parts/12081) - 4문제
+
+| date 	| summercat 	| jeremy  	| Kyo     	| sunnycookie 	| hamo    	| inho    	|
+|------	|-----------	|---------	|---------	|-------------	|---------	|---------	|
+| 2.18 	|    	        |         	|  	        |             	|          	|         	|
+| 2.19  |    	        |         	|  	        |             	|          	|         	|
+| 2.20  |    	        |         	|  	        |             	|          	|         	|
+| 2.21  |    	        |         	|  	        |             	|          	|         	|
+| 2.22  |    	        |         	|  	        |             	|          	|         	| 
+| 2.23  |    	        |         	|  	        |             	|          	|         	|
+
+## 3주차
+
+
+| date 	| summercat 	| jeremy  	| Kyo     	| sunnycookie 	| hamo    	| inho    	|
+|------	|-----------	|---------	|---------	|-------------	|---------	|---------	|
+| 2.18 	|    	        |         	|  	        |             	|          	|         	|
+| 2.19  |    	        |         	|  	        |             	|          	|         	|
+| 2.20  |    	        |         	|  	        |             	|          	|         	|
+| 2.21  |    	        |         	|  	        |             	|          	|         	|
+| 2.22  |    	        |         	|  	        |             	|          	|         	| 
+| 2.23  |    	        |         	|  	        |             	|          	|         	|
