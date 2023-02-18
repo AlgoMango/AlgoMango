@@ -3,7 +3,7 @@
 import Foundation
 
 let count: Int = Int(readLine()!)!
-var reversedStack: [Int] = Array(1...count + 1).reversed()
+var reversedStack: [Int] = Array(1...count + 1).reversed() //  ⭐️⭐️⭐️ (count + 1) 까지, reversedStack.last! 강제언래핑때문
 var stack: [Int] = []
 var answer: [Character] = []
 
