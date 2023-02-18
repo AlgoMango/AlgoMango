@@ -3,9 +3,9 @@
 import Foundation
 
 let count: Int = Int(readLine()!)!
-var reversedStack: [Int] = Array(2...count + 1).reversed()
-var stack: [Int] = [1]
-var answer: [Character] = ["+"]
+var reversedStack: [Int] = Array(1...count + 1).reversed()
+var stack: [Int] = []
+var answer: [Character] = []
 
 for _ in 1...count {
     let number: Int = Int(readLine()!)!
