@@ -1,4 +1,4 @@
-//230219_기능개발_프로그래머스
+//230219_기능개발(스택,큐)_프로그래머스
 import Foundation
 
 func solution(_ progresses:[Int], _ speeds:[Int]) -> [Int] {
