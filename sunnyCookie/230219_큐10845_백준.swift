@@ -10,14 +10,14 @@ for _ in 1...count {
 
     switch input {
     case "pop":
-      // 한 줄로 하려면 stack.isEmpty ? print(-1) : print(stack.removeFirst())  // removeFirst는 O(N)
-        if stack.isEmpty {
-            print(-1)
-        } else {
-            stack = stack.reversed().  // reversed(), removeLast는 O(1)인데 갯수가 적어서인지..시간에 크게 영향을 끼치지 않음.
-            print(stack.removeLast())  // ⭐️⭐️⭐️ reversed를 새로운 상수에 담으면 타입은 ReversedCollection<[Int]>이므로 removeLast()같은 메서드 사용불가, 타입을 명시해줘야함
-            stack = stack.reversed()
-        }
+      stack.isEmpty ? print(-1) : print(stack.removeFirst())  // removeFirst는 O(N)
+//         if stack.isEmpty {
+//             print(-1)
+//         } else {
+//             stack = stack.reversed()   // ⭐️⭐️⭐️  reversed()는 O(1)이라고 적혀있는데,
+//             print(stack.removeLast()) // reversed를 새로운 상수에 담았을 때의 ReversedCollection<[Int]>로 사용할때만임.(removeLast()같은 메서드 사용불가) 타입을 명시해줘야함 
+//             stack = stack.reversed()  // 이렇게 다시 원래 stack (type: [Int])에 담아주면 O(N)임
+//         }
     case "size":
         print(stack.count)
     case "empty":
