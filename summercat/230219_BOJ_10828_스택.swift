@@ -1,6 +1,3 @@
-// BOJ 10828 스택
-// https://www.acmicpc.net/problem/10828
-
 let commandCount = Int(readLine()!)!
 var stack: [Int] = []
 
