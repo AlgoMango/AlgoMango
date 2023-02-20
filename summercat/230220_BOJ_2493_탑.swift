@@ -1,6 +1,3 @@
-// BOJ 2493 탑
-// https://www.acmicpc.net/problem/2493
-
 let n = Int(readLine()!)!
 var towers = readLine()!.split(separator: " ").compactMap{ Int($0) }
 var answer: [Int] = Array(repeating: 0, count: n)
