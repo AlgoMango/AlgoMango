@@ -28,7 +28,6 @@ for item in Array(result.reversed()) {
     print(item, terminator: " ")
 }
 
-
 //230223_2493탑_백준
 
 let testCase = Int(readLine()!)!
