@@ -28,24 +28,26 @@ for item in Array(result.reversed()) {
     print(item, terminator: " ")
 }
 
-//230223_2493탑_백준
+//230222_2493탑_백준
 
 let testCase = Int(readLine()!)!
-let numbers = readLine()!.split(separator: " ").map{ Int(String($0))! }
+let input = readLine()!.split(separator: " ").map { Int(String($0))! }
 
-var stack: [(Int, Int)] = [(100000001, 0)]
-var result: [Int] = []
+var numbers: [(value: Int, index: Int)] = []
+for index in 0..<input.count {
+    numbers.append((input[index], index + 1))
+}
 
-for index in 0..<numbers.count {
-    
-    while stack.last!.0 < numbers[index] {
+let maxNumber = 100000001
+var stack: [(value: Int, index: Int)] = [(maxNumber, 0)]
+
+let result: [Int] = []
+
+for number in numbers {
+    while stack.last!.value < number.value {
         stack.removeLast()
     }
     
-    result.append(stack.last!.1)
-    stack.append((numbers[index], index + 1))
-}
-
-for item in result {
-    print(item, terminator:  " ")
+    print(stack.last!.index, terminator: " ")
+    stack.append(number)
 }
