@@ -24,19 +24,16 @@ func solution(_ priorities:[Int], _ location:Int) -> Int {
             location -= 1
             continue
         }
-        
         if priorities.first! == priorities.max() && location == 0 {
             outputCount += 1
             location -= 1
             break
         }
-        
         if priorities.first! == priorities.max() {
             priorities.removeFirst()
             outputCount += 1
             location -= 1
         }
-        
     }
     return outputCount
 }
