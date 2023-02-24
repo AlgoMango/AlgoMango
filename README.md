@@ -54,8 +54,11 @@
 
 ## 3주차
 [덱](https://www.acmicpc.net/workbook/view/7311) - 위에서부터 3문제
+
 [스택의 활용](https://www.acmicpc.net/workbook/view/7312) - 5문제
+
 [릿코드 - Simplify Path](https://leetcode.com/problems/simplify-path/)
+
 [백준 - 뱀](https://www.acmicpc.net/problem/3190)
 
 | date 	 |  summercat 	| jeremy  	| Kyo     	| sunnycookie | hamo    	| inho    	|
