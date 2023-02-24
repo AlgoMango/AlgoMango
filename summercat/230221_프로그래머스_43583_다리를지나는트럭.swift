@@ -7,6 +7,12 @@ func solution(_ bridge_length:Int, _ weight:Int, _ truck_weights:[Int]) -> Int {
     var bridge: [(weight: Int, time: Int)] = []
     var passed: Int = 0
     
+    // 다리 길이 = 원소의 개수인 배열을 생성해서 할 수도 있을 것 같음
+    // [0 0]
+    // [0 7]
+    // [7 0]
+    // [0 4]
+    
     while passed < truck_weights.count {
         for i in 0..<bridge.count { bridge[i].time += 1 }
         
