@@ -14,7 +14,7 @@
 ## CURRICULUM
 - 일주일에 2개 챕터씩 진행합니다.
 - 각 챕터에 해당하는 백준 문제 챕터별 5개, 프로그래머스 최소 1개, 릿코드 최소 1개를 풀어옵니다. 
-  - 챕터/백준 문제 리스트: https://github.com/encrypted-def/basic-algo-lecture
+  - 챕터/백준 문제 리스트: https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md
   - 프로그래머스 고득점킷: https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit
   - 릿코드 문제 리스트: https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
 - 개념 공부는 키워드 적힌거 보고 각자 알아서 진행합니다.
