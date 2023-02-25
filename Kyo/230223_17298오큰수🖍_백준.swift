@@ -1,6 +1,7 @@
 //230223_17298오큰수_백준
 
-// 왜 시간초과..
+// 왜 시간초과.. > 마지막 입출력을 O(n)으로 받았는데 print자체가 시간이 오래걸린다.
+
 
 
 // MARK: - Input, Input 조작
@@ -28,6 +29,8 @@ for index in 0..<inputs.count {
 }
 
 // MARK: - Output
-for item in result.reversed() {
-    print(item, terminator: " ")
-}
+print(result.reversed().joined(separator: " "))
+
+// for item in result.reversed() {
+//     print(item, terminator: " ")
+// }
