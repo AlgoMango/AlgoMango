@@ -1,5 +1,3 @@
-// 질문할것: 왜 작거나 같다여야만 하는지 잘 모르겠다...? 크거나 같다로 해도 같은 결과일거라고 생각했는데
-
 let input = readLine()!.split(separator: " ").compactMap { Int($0) }
 let n = input[0]
 let m = input[1]
