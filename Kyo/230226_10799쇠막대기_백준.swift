@@ -13,7 +13,7 @@ for index in 0..<input.count {
     switch input[index] {
     case "(":
         cnt += 1
-    case ")":               //닫힌 괄호면 막대기의 끝부분이거나 레이저이다.
+    case ")":               // 닫힌 괄호면 막대기의 끝부분이거나 레이저이다.
         cnt -= 1
         if recent == "(" {  // 레이저로 자른 부분 - 지금까지의 cnt를 더해줌
             result += cnt
