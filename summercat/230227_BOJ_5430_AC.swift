@@ -37,6 +37,10 @@ func solve(_ ac: [Character], _ numbers: [Int]) {
     }
   }
 
+  if start > end {
+    print("[]")
+    return
+  }
   answer = Array(answer[start...end])
   
   print("[", terminator: "")
