@@ -1,4 +1,4 @@
-//230303_1012회전하는큐_백준
+//230301_1012회전하는큐_백준
 
 // Queue 크기와 뽑으려는 수 갯수
 let input = readLine()!.split(separator: " ").map { Int(String($0))! }
