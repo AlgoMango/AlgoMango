@@ -71,15 +71,22 @@
 | 3.02   |    2문제 ✅   |         	|  1문제 ✅  |             |          	|         	|
 
 ## 4주차
-
 DFS/BFS 개념&구현방법을 반드시! 학습하고 나서 문제를 풉니다. 문제 먼저 풀기 노노
+
 [백준 - DFS와 BFS](https://www.acmicpc.net/problem/1260) - 무조건 제일 먼저 풀기
+
 [백준 - 바이러스](https://www.acmicpc.net/problem/2606)
+
 [프로그래머스 - 타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
+
 [백준 - 그림](https://www.acmicpc.net/problem/1926)
+
 [백준 - 유기농 배추](https://www.acmicpc.net/problem/1012)
+
 [백준 - 미로 탐색](https://www.acmicpc.net/problem/2178)
+
 [백준 - 토마토](https://www.acmicpc.net/problem/7576)
+
 [릿코드 - Same Tree](https://leetcode.com/problems/same-tree/)
 
 | date 	 |  summercat 	| jeremy  	| Kyo     	| sunnycookie | hamo    	| inho    	|
