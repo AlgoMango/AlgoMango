@@ -1,3 +1,5 @@
+// https://www.acmicpc.net/problem/1926
+
 /*
  문제이해
 
@@ -72,8 +74,8 @@ func bfs(row: Int, col: Int) {
             // 인덱스가 도화지를 넘지 않는지 확인
             if row2 < maxRow && row2 >= 0 && col2 < maxCol && col2 >= 0 {
                 // 값이 1인지, 방문 했었던 곳인지 확인
-                if drawing[row2][col2] == 1 && !visited[row2][col2] {
-                    queue.append((r: row2, c: col2))
+                if drawing[row2][col2] == 1 && !visited[row2][col2] { //👈 재밌는거 바로위에 75번 줄 뒤로 && 으로 추가하면 그 앞에서 index크기먼저 확인되서 통과되는데, 
+                    queue.append((r: row2, c: col2))                   //               75번줄 앞으로 && 으로 이동시키면 index범위초과로 런타임 에러남
                     area += 1
                     visited[row2][col2] = true
                 }
