@@ -30,6 +30,8 @@ func bfs() {
             let xPosition = currentNode.0 + x
             let yPosition = currentNode.1 + y
             
+            // 이 부분 로직이 끝에 처음 도달한거면 거리까지 걸린 시간을 더해주고 (== 1)
+            // 1보다 큰거면 다른 루트로 이미 도달한건데 그 값이 이번에 도달한 값보다 크면 갈아 끼워준다.
             if xPosition == (rowCount - 1) && yPosition == (columnCount - 1) {
                 if graph[xPosition][yPosition] == 1 {
                     graph[xPosition][yPosition] += graph[currentNode.0][currentNode.1]
