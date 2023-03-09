@@ -1,6 +1,7 @@
+// 앞으로 components 쓰면 
 import Foundation
 
-let farm = readLine()!.components(separatedBy: " ")
+let farm = readLine()!.split(separator: " ")
 let farmWidth = Int(farm[0])!
 let farmHeight = Int(farm[1])!
 let dx = [1, 0, -1, 0]
@@ -12,7 +13,7 @@ var graph: [[Int]] = Array(repeating: Array(repeating: 0, count: farmWidth), cou
 var visits: [[Int]] = Array(repeating: Array(repeating: 0, count: farmWidth), count: farmHeight)
 
 for index in 0..<farmHeight {
-    let input = readLine()!.components(separatedBy: " ").map { Int($0)! }
+    let input = readLine()!.split(separator: " ").map { Int($0)! }
     
     graph[index] = input
 }
@@ -125,5 +126,3 @@ for i in 0..<farmHeight {
 }
 
 print(result - 1)
-
-
