@@ -1,4 +1,4 @@
-// 앞으로 components 쓰면 
+// 앞으로 components 쓰면 나가죽겠습니다.
 import Foundation
 
 let farm = readLine()!.split(separator: " ")
