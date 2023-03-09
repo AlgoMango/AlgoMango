@@ -96,12 +96,6 @@ for i in 0..<farmHeight {
     }
 }
 
-for i in 0..<farmHeight {
-    if graph[i].contains(0) {
-        result = 0
-    }
-}
-
 while index != needVisitQueue.count  {
     let currentNode = needVisitQueue[index]
     index += 1
@@ -121,6 +115,12 @@ while index != needVisitQueue.count  {
                 result = graph[xPosition][yPosition]
             }
         }
+    }
+}
+
+for i in 0..<farmHeight {
+    if graph[i].contains(0) {
+        result = 0
     }
 }
 
