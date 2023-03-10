@@ -25,8 +25,10 @@
 
 ## 5주차
 DFS/BFS 연습하기2
+찾아볼 키워드: 메모이제이션
 
 [단지 번호 붙이기](https://www.acmicpc.net/problem/2667)
+
 [적록색약](https://www.acmicpc.net/problem/10026)
 
 [안전영역](https://www.acmicpc.net/problem/2468)
