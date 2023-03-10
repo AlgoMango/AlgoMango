@@ -23,6 +23,35 @@
 
 ---
 
+## 5주차
+DFS/BFS 연습하기
+
+[단지 번호 붙이기](https://www.acmicpc.net/problem/2667)
+[적록색약](https://www.acmicpc.net/problem/10026)
+
+[안전영역](https://www.acmicpc.net/problem/2468)
+
+[불](https://www.acmicpc.net/problem/4179)
+
+[나이트의 이동](https://www.acmicpc.net/problem/7562)
+
+[토마토](https://www.acmicpc.net/problem/7569)
+
+[숨바꼭질](https://www.acmicpc.net/problem/1697)
+
+[상범빌딩](https://www.acmicpc.net/problem/6593)
+
+[Path Sum](https://leetcode.com/problems/path-sum/)
+
+| date 	 |  summercat 	| Kyo     	| sunnycookie | hamo    	| inho    	|
+|:------:|:-----------: |:---------:|:-----------:|:---------:|:---------:|
+| 3.04 	 |   2문제 ✅    |  3문제 ✅  |    2문제 ✅   |   1문제 ✅  |  2문제 ✅  |
+| 3.05   |   2문제 ✅    |  2문제 ✅  |    1문제 ✅   |   3문제 ✅  |  3문제 ✅  |
+| 3.06   |  2문제 ✅     |  1문제 ✅  |    1문제 ✅   |   1문제 ✅  |           |
+| 3.07   |              |	          |   1문제 ✅   |            | 1문제 ✅   |
+| 3.08   |  2문제 ✅     |  1문제 ✅  |    1문제 ✅   |   1문제 ✅  |  1문제 ✅  | 
+| 3.09   |              |           |             |          	|         	|
+
 ## 4주차
 DFS/BFS 개념&구현방법을 반드시! 학습하고 나서 문제를 풉니다. 문제 먼저 풀기 노노
 
