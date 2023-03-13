@@ -5,10 +5,10 @@ let dx = [1, 0, -1, 0]
 let dy = [0, 1, 0, -1]
 
 var saekmaengGraph: [[String]] = []
-var saekmaengVisits: [[Int]] = Array(repeating: Array(repeating: 0, count: 5), count: 5)
+var saekmaengVisits: [[Int]] = Array(repeating: Array(repeating: 0, count: count), count: count)
 var saekmaengGroup: Int = 0
 var jungsangGraph: [[String]] = []
-var jungsangVisits: [[Int]] = Array(repeating: Array(repeating: 0, count: 5), count: 5)
+var jungsangVisits: [[Int]] = Array(repeating: Array(repeating: 0, count: count), count: count)
 var jungsangGroup: Int = 0
 
 for _ in 1...count {
@@ -28,8 +28,7 @@ for i in 0..<count {
         
         if jungsangVisits[i][j] == 0 {
             jungsangVisits[i][j] = 1
-            print("\(i), \(j)")
-            jungsangBfs(target: saekmaengGraph[i][j], start: (i, j))
+            jungsangBfs(target: jungsangGraph[i][j], start: (i, j))
             jungsangGroup += 1
         }
     }
@@ -38,11 +37,11 @@ for i in 0..<count {
 print("\(jungsangGroup) \(saekmaengGroup)")
 
 func saekmaengBfs(target: String, start: (Int, Int)) {
-    var needVisitNode: [(Int, Int)] = [start]
+    var needVisitQueue: [(Int, Int)] = [start]
     var index = 0
-    
-    while index < needVisitNode.count {
-        let currentNode = needVisitNode[index]
+
+    while index < needVisitQueue.count {
+        let currentNode = needVisitQueue[index]
         index += 1
         
         for (x, y) in zip(dx, dy) {
@@ -59,18 +58,18 @@ func saekmaengBfs(target: String, start: (Int, Int)) {
             
             if saekmaengGraph[xPosition][yPosition] == target {
                 saekmaengVisits[xPosition][yPosition] = 1
-                needVisitNode.append((xPosition, yPosition))
+                needVisitQueue.append((xPosition, yPosition))
             }
         }
     }
 }
 
 func jungsangBfs(target: String, start: (Int, Int)) {
-    var needVisitNode: [(Int, Int)] = [start]
+    var needVisitQueue: [(Int, Int)] = [start]
     var index = 0
     
-    while index < needVisitNode.count {
-        let currentNode = needVisitNode[index]
+    while index < needVisitQueue.count {
+        let currentNode = needVisitQueue[index]
         index += 1
         
         for (x, y) in zip(dx, dy) {
@@ -87,7 +86,7 @@ func jungsangBfs(target: String, start: (Int, Int)) {
             
             if jungsangGraph[xPosition][yPosition] == target {
                 jungsangVisits[xPosition][yPosition] = 1
-                needVisitNode.append((xPosition, yPosition))
+                needVisitQueue.append((xPosition, yPosition))
             }
         }
     }
