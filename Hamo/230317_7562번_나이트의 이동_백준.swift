@@ -14,13 +14,10 @@ for _ in 1...testCount {
     let start = readLine()!.split(separator: " ").map { Int($0)! }
     let target = readLine()!.split(separator: " ").map { Int($0)! }
     
-    if start == target {
-        results.append(0)
-        continue
-    }
-    
     var needVisitQueue: [(Int, Int)] = [(start[0], start[1])]
     var index = 0
+    
+    visits[start[0]][start[1]] = 1
     
     while index < needVisitQueue.count {
         let currentNode = needVisitQueue[index]
