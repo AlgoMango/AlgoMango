@@ -22,6 +22,36 @@
   - 자료구조 개념 유투브 추천: https://www.youtube.com/@eleanorlim
 
 ---
+## 6주차
+5주차 전멸이슈..로 인해 3.17추가
+
+DFS/BFS 찾아볼 키워드: 메모이제이션
+
+[불](https://www.acmicpc.net/problem/4179)
+
+[나이트의 이동](https://www.acmicpc.net/problem/7562)
+
+[토마토](https://www.acmicpc.net/problem/7569)
+
+[숨바꼭질](https://www.acmicpc.net/problem/1697)
+
+[상범빌딩](https://www.acmicpc.net/problem/6593)
+
+[빙산](https://www.acmicpc.net/problem/2573)
+
+[벽부수고이동하기](https://www.acmicpc.net/problem/2206)
+
+[Path Sum](https://leetcode.com/problems/path-sum/)
+
+| date 	 |  summercat 	| Kyo     	| sunnycookie | hamo    	| inho    	|
+|:------:|:-----------: |:---------:|:-----------:|:---------:|:---------:|
+| 3.17   |              |           |             |          	|         	|
+| 3.18   |              |           |             |          	|         	|
+| 3.19   |              |           |             |          	|         	|
+| 3.20   |              |           |             |          	|         	|
+| 3.21   |              |           |             |          	|         	|
+| 3.22   |              |           |             |          	|         	|
+| 3.23   |              |           |             |          	|           |
 
 ## 5주차
 DFS/BFS 찾아볼 키워드: 메모이제이션
