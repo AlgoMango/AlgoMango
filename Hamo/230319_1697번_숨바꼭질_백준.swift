@@ -1,4 +1,5 @@
 import Foundation
+// 딕셔너리 엄청 느림,,,
 
 let location = readLine()!.split(separator: " ").map { Int($0)! }
 
