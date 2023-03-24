@@ -22,6 +22,34 @@
   - 자료구조 개념 유투브 추천: https://www.youtube.com/@eleanorlim
 
 ---
+
+## 7주차
+
+[빙산](https://www.acmicpc.net/problem/2573)
+
+[벽부수고이동하기](https://www.acmicpc.net/problem/2206)
+
+[Path Sum](https://leetcode.com/problems/path-sum/)
+
+[네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162)
+
+[단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163)
+
+[여행 경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164)
+
+[퍼즐 조각 채우기](https://school.programmers.co.kr/learn/courses/30/lessons/84021)
+
+| date 	 |  summercat 	| Kyo     	| sunnycookie | hamo    	| inho    	|
+|:------:|:-----------: |:---------:|:-----------:|:---------:|:---------:|
+| 3.17   |              |           |             |  1문제 ✅  |  2문제 ✅   |
+| 3.18   |              |  2문제 ✅  |             |          	|  2문제 ✅   |
+| 3.19   |              |           |  3문제 ✅    |   1문제 ✅  |         	|
+| 3.20   |    2문제 ✅    |  1문제 ✅  |  2문제 ✅   |    2문제 ✅ |         	|
+| 3.21   |              |           |   1문제 ☑️    |    1문제 ✅ |         	|
+| 3.22   |   2문제 ✅     |  1문제 ✅  |            |           |         	|
+| 3.23   |              |           |    2문제 ✅  |          	|   2문제 ✅  |
+
+
 ## 6주차
 5주차 전멸이슈..로 인해 3.17추가, 꼭 모두 풉시다..
 
