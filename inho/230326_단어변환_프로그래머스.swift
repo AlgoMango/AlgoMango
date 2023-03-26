@@ -19,7 +19,7 @@ func solution(_ begin:String, _ target:String, _ words:[String]) -> Int {
             }
             
             let nextWords = words.filter { compare(a: Array($0), b: Array(node.0)) == $0.count - 1 } //1개의 문자만 다른 단어들
-            
+                                       //{ Set(node.0).substract(Set($0)).count == 1 }로 시도했었는데, Set(dod) == Set(do)로 돼서 틀렸던거같은 풀이
             index += 1
             
             for word in nextWords {
