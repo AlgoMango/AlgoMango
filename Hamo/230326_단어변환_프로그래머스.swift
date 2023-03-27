@@ -37,6 +37,3 @@ func canChange(text1: String, text2: String) -> Bool {
 
     return diff == 1 ? true : false
 }
-
-let result = solution("hit", "cog", ["cog", "log", "lot", "dog", "dot", "hot"])
-print(result)
