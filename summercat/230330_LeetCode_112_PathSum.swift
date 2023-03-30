@@ -34,3 +34,15 @@ class Solution {
         if cur?.right != nil { recur(cur?.right, remainingVal -  cur!.val) }
     }
 }
+
+// 외국인형 풀이
+class Solution {
+    func hasPathSum(_ root: TreeNode?, _ targetSum: Int) -> Bool {
+        guard let root = root else { return false }
+        
+        if root.val == targetSum && root.left == nil && root.right == nil { return true }
+        
+        return hasPathSum(root.left, targetSum - root.val) || hasPathSum(root.right, targetSum - root.val)
+    }
+    
+}
