@@ -1,4 +1,4 @@
-//230330_islandPerimeter_릿코드
+//230330_islandPerimeter_LeetCode
 
 class Solution {
     func islandPerimeter(_ grid: [[Int]]) -> Int {
