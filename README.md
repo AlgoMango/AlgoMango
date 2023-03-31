@@ -23,6 +23,34 @@
 
 ---
 
+## 8주차
+
+[벽부수고이동하기](https://www.acmicpc.net/problem/2206)
+
+[퍼즐 조각 채우기](https://school.programmers.co.kr/learn/courses/30/lessons/84021)
+
+[색종이 만들기](https://www.acmicpc.net/problem/2630)
+
+[곱셈](https://www.acmicpc.net/problem/1629)
+
+[쿼드트리](https://www.acmicpc.net/problem/1992)
+
+[하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)
+
+[별 찍기 - 10](https://www.acmicpc.net/problem/2447)
+
+
+| date 	 |  summercat 	| Kyo     	| sunnycookie | hamo    	| inho    	|
+|:------:|:-----------: |:---------:|:-----------:|:---------:|:---------:|
+| 3.24   |    1문제 ✅   |           |             |           |           |
+| 3.25   |              |  2문제 ✅  |   1문제 ✅   |   1문제 ✅  |           |
+| 3.26   |              |           |   1문제 ✅   |   1문제 ✅  |  2문제 ✅  |
+| 3.27   |   1문제 ✅    |  1문제 ✅  |   1문제 ✅   |    1문제 ✅ |  1문제 ✅  |
+| 3.28   |              |  2문제 ✅  |             |   1문제 ✅ |           |
+| 3.29   |    2문제 ✅   |           |   2문제 ✅   |           |           |
+| 3.30   |              |  2문제 ✅  |   1문제 ✅    |  1문제 ✅ |           |
+
+
 ## 7주차
 
 [빙산](https://www.acmicpc.net/problem/2573)
