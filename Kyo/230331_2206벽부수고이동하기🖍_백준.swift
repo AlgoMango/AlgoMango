@@ -1,4 +1,7 @@
 //230331_2206벽부수고이동하기_백준
+/*
+ 벽을 부쉈을 때를 3차원 방문 배열 사용해서 해결해야한다..
+*/
 
 let input = readLine()!.split(separator: " ").map { Int(String($0))! }
 
