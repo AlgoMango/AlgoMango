@@ -75,3 +75,46 @@ func checkAllSame(piece: [[Int]]) -> (isSame: Bool, val: Int?) {
 
 cuttingQuarters(paper: paper)
 answer.forEach { print($0) }
+
+
+/*
+------------------------------------------------------------------------------------------
+다른사람 풀이 16ms
+*/
+
+import Foundation
+
+let n = Int(readLine()!)!
+var paper: [[Int]] = []
+
+for _ in 0..<n {
+    paper.append(readLine()!.split(separator: " ").map { Int(String($0))! })
+}
+
+var answer: [Int] = [0 , 0]
+
+func sol(_ x: Int, _ y: Int, _ sizeN: Int) {
+
+    if sizeN == 1 {
+        answer[paper[x][y]] += 1
+        return
+    }
+
+    for i in 0..<sizeN {
+        for j in 0..<sizeN {
+            if paper[x + i][y + j] != paper[x][y] {
+                let half = sizeN/2
+                sol(x, y, half)
+                sol(x, y+half, half)
+                sol(x+half, y, half)
+                sol(x+half, y+half, half)
+                return
+            }
+        }
+    }
+
+    answer[paper[x][y]] += 1
+}
+
+sol(0, 0, n)
+answer.forEach { print($0) }
