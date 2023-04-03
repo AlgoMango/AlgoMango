@@ -9,43 +9,33 @@ import Foundation
 
 func solution(_ tickets:[[String]]) -> [String] {
     
-    var tempTickets = tickets.sorted { tempA, tempB in
-        if tempA[0] < tempB[0] {
-            return true
-        } else if tempA[0] == tempB[0] {
-            return tempA[1] < tempB[1]
-        } else {
-            return false
-        }
+    // 가능한 경로가 2개 이상일 경우에 알파벳 순서가 앞서는 경로를 Return하기위해 Sorting
+    var sortTickets = tickets.sorted {
+        return $0[1] < $1[1]
     }
     
+    var answer: [String] = ["ICN"]
     var visit: [Bool] = Array(repeating: false, count: tickets.count)
     
-    var result: [String] = []
-    
     func dfs(start: String) {
-        // 현재 방문한 도시 수가 티켓 수와 같다면 지금 도착한 곳이 마지막 여행지
-        if result.count == tempTickets.count {
-            result.append(start)
-            return
-        }
-        for index in 0..<tempTickets.count {
-            if tempTickets[index][0] == start && visit[index] == false {
+        // answer Count 만족하면 Return
+        if answer.count == tickets.count + 1 { return }
+        
+        for index in 0..<sortTickets.count {
+            let location = sortTickets[index][1]  // 도착지
+            
+            if start == sortTickets[index][0] && visit[index] == false {
                 visit[index] = true
-                result.append(start)
-                dfs(start: tempTickets[index][1])
-                // 정답을 이미 구했다면 return
-                if result.count == tempTickets.count + 1 {
-                    return
-                }
-                // 만약 끝까지 갓는데도 return이 안됫다면 하나씩 제거하면서 돌아가는 코드 
-                result.removeLast()
-                visit[index] = false
+                answer.append(location)
+                dfs(start: location) // 재귀
+                if answer.count == sortTickets.count + 1 { return } // answer Count 만족하면 Return
+                // 만족 못해서 Return이 안된 것이니 뒤로 false 및 remove 처리
+                visit[index] = false 
+                answer.removeLast()
             }
         }
     }
     
     dfs(start: "ICN")
-    
-    return result
+    return answer
 }
