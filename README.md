@@ -23,6 +23,28 @@
 
 ---
 
+## 9주차
+
+[별 찍기 11](https://www.acmicpc.net/problem/2448)
+[트리 순회](https://www.acmicpc.net/problem/1991)
+[N과 M 1](https://www.acmicpc.net/problem/15649)
+[N과 M 2](https://www.acmicpc.net/problem/15650)
+[N과 M 3](https://www.acmicpc.net/problem/15651)
+[N과 M 4](https://www.acmicpc.net/problem/15652)
+[부분수열의 합](https://www.acmicpc.net/problem/1182)
+[N-Queen](https://www.acmicpc.net/problem/9663)
+
+| date 	 |  summercat 	| Kyo     	| sunnycookie | hamo    	| inho    	|
+|:------:|:-----------: |:---------:|:-----------:|:---------:|:---------:|
+| 3.31   |              |  1문제 ✅  |             |           |           |
+| 4.01   |              |           |  1문제 ✅    |    1문제 ✅ |           |
+| 4.02   |              |  1문제 ✅  |  1문제 ✅    |           |           |
+| 4.03   |              |  1문제 ✅  |             |           |           |
+| 4.04   |   2문제 ✅    |           |  1문제 ✅    |           |           |
+| 4.05   |   1문제 ✅    |           |  1문제 ✅    |    2문제 ✅ | 3문제 ✅   |
+| 4.06   |              |  3문제 ✅  |             |           |           |
+
+
 ## 8주차
 
 [벽부수고이동하기](https://www.acmicpc.net/problem/2206)
