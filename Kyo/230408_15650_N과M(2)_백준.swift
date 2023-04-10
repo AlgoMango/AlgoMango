@@ -32,3 +32,37 @@ func recursion(number: Int, maxNumber: Int) {
 }
 
 recursion(number: 0, maxNumber: 0)
+
+
+// 2회차 풀이
+
+let input = readLine()!.split(separator: " ").map { Int(String($0))! }
+
+let n = input[0]    // ex : 4
+let m = input[1]    // ex : 2
+
+var visit: [Bool] = Array(repeating: false, count: n)   // 방문 체크 배열
+var array: [Int] = Array(repeating: 0, count: m)    // 출력할 배열
+
+func recursive(_ number: Int) {
+    if number == m {
+        if array.sorted(by: <) != array {
+            return
+        }
+        
+        print(array.map({ String($0) }).joined(separator: " ") )
+        return
+    }
+    
+    for num in 0..<n {
+        if visit[num] { continue }
+        
+        visit[num] = true
+        array[number] = num + 1
+        recursive(number + 1)
+        visit[num] = false
+    }
+}
+
+
+recursive(0)
