@@ -19,10 +19,10 @@ func prtStar(n: Int, pattern: [String]) {
         return
     }
 
-    let spacing = Array(repeating: "   ", count: pattern.count/3)
-    let space = pattern.map { spacing.joined() + $0 + spacing.joined() }
+    let spacing = Array(repeating: "   ", count: pattern.count/3).joined()
+    let spaceAdded = pattern.map { spacing + $0 + spacing }
     let newLine: [String] = pattern.map { $0 + " " + $0 }
-    let newPattern = space + newLine
+    let newPattern = spaceAdded + newLine
 
     prtStar(n: n/2, pattern: newPattern)
 }
