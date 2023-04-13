@@ -1,4 +1,4 @@
-//230413_15655_N과M(7)_백준
+//230413_15656_N과M(7)_백준
 let input = readLine()!.split(separator: " ").map { Int(String($0))! }
 
 let n = input[0]
