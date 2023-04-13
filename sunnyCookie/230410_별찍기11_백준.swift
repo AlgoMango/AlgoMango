@@ -1,4 +1,4 @@
-//https://www.acmicpc.net/problem/2447
+//https://www.acmicpc.net/problem/2448
 
 /*
 재귀
