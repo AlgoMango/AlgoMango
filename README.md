@@ -23,6 +23,36 @@
 
 ---
 
+## 10주차
+
+[암호 만들기](https://www.acmicpc.net/problem/1759)
+
+[소문난 칠공주](https://www.acmicpc.net/problem/1941)
+
+[수 정렬하기](https://www.acmicpc.net/problem/2750)
+
+[수 정렬하기2](https://www.acmicpc.net/problem/2751)
+
+[수 정렬하기3](https://www.acmicpc.net/problem/10989)
+
+[단어 정렬](https://www.acmicpc.net/problem/1181)
+
+[좌표 정렬하기](https://www.acmicpc.net/problem/11650)
+
+[카드](https://www.acmicpc.net/problem/11652)
+
+[가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746)
+
+| date 	 |  summercat 	| Kyo     	| sunnycookie | hamo    	| inho    	|
+|:------:|:-----------: |:---------:|:-----------:|:---------:|:---------:|
+| 4.08   |              |  2문제 ✅  |             |           |           |
+| 4.09   |              |  1문제 ✅  |             |   1문제 ✅  |           |
+| 4.10   |    4문제 ✅   |  1문제 ✅  |    2문제 ✅  |   1문제 ✅  |           |
+| 4.11   |              |  1문제 ✅  |   3문제 ✅   |   1문제 ✅  |           |
+| 4.12   |              |  1문제 ✅  |   3문제 ✅   |    1문제 ✅ |  5문제 ✅  |
+| 4.13   |              |  9문제 ✅  |   1문제 ✅   |    2문제 ✅ |  3문제 ✅  |
+
+
 ## 9주차
 
 [별 찍기 11](https://www.acmicpc.net/problem/2448)
