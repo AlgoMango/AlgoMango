@@ -23,6 +23,42 @@
 
 ---
 
+## 11주차
+
+[소문난 칠공주](https://www.acmicpc.net/problem/1941)
+
+[1로만들기](https://www.acmicpc.net/problem/1463)
+
+[1,2,3더하기](https://www.acmicpc.net/problem/9095)
+
+[계단오르기](https://www.acmicpc.net/problem/2579)
+
+[RGB거리](https://www.acmicpc.net/problem/1149)
+
+[피보나치 함수](https://www.acmicpc.net/problem/1003)
+
+[이친수](https://www.acmicpc.net/problem/2193)
+
+[연속합](https://www.acmicpc.net/problem/1912)
+
+[퇴사](https://www.acmicpc.net/problem/14501)
+
+[N으로표현](https://school.programmers.co.kr/learn/courses/30/lessons/42895)
+
+[퇴사2](https://www.acmicpc.net/problem/15486)- Optional
+
+
+| date 	 |  summercat 	| Kyo     	| sunnycookie | hamo    	| inho    	|
+|:------:|:-----------: |:---------:|:-----------:|:---------:|:---------:|
+| 4.21   |              |           |             |           |           |
+| 4.22   |              |           |             |           |           |
+| 4.23   |              |           |             |           |           |
+| 4.24   |              |           |             |           |           |
+| 4.25   |              |           |             |           |           |
+| 4.26   |              |           |             |           |           |
+| 4.27   |              |           |             |           |           |
+
+
 ## 10주차
 
 [암호 만들기](https://www.acmicpc.net/problem/1759)
