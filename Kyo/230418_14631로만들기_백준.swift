@@ -12,25 +12,34 @@
 
 let input = Int(readLine()!)!
 
+var counting: [Int] = Array(repeating: 0, count: input + 2)
 
-var dynamicArray: [Int] = Array(repeating: 0, count: input + 1)
-dynamicArray[1] = 0
-var start = 2
+/*
+ counting[1] = 0
+ counting[2] = 1
+ counting[3] = 1
+ counting[4] = 2  counting[3] + 1
+ counting[5] = 3, counting[4] + 1
+ */
 
-while start <= input {
-    
-    let minusCase = dynamicArray[start - 1] + 1
-    dynamicArray[start] = minusCase
-    
-    if start % 2 == 0 {
-        dynamicArray[start] = min(dynamicArray[start / 2] + 1, dynamicArray[start])
+counting[1] = 0
+counting[2] = 1
+
+if input > 2 {
+    for number in 3..<input+1 {
+        
+        var beforeCount = counting[number - 1] + 1
+        
+        if number % 2 == 0 {
+            beforeCount = min(counting[number / 2] + 1, beforeCount)
+        }
+        
+        if number % 3 == 0 {
+            beforeCount = min(counting[number / 3] + 1, beforeCount)
+        }
+        
+        counting[number] = beforeCount
     }
-    
-    if start % 3 == 0 {
-        dynamicArray[start] = min(dynamicArray[start / 3] + 1, dynamicArray[start])
-    }
-    
-    start += 1
 }
 
-print(dynamicArray[input])
+print(counting[input])
