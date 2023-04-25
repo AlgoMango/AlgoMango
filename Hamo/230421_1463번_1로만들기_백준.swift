@@ -36,3 +36,5 @@ func bfs() {
 
 bfs()
 print(visits[1] - 1)
+
+// DP로 풀이
