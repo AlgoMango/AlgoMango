@@ -38,3 +38,30 @@ bfs()
 print(visits[1] - 1)
 
 // DP로 풀이
+
+import Foundation
+
+let count = Int(readLine()!)!
+
+var arr: [Int] = Array(repeating: 0, count: 1000005)
+arr[1] = 0
+
+if count == 1 {
+    print(0)
+    exit(0)
+}
+
+for i in 2...count {
+    arr[i] = arr[i - 1] + 1
+
+    if i % 2 == 0 {
+        arr[i] = min(arr[i], arr[i / 2] + 1)
+    }
+
+    if i % 3 == 0 {
+        arr[i] = min(arr[i], arr[i / 3] + 1)
+    }
+}
+
+print(arr[count])
+
