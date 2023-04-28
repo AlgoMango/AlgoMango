@@ -23,6 +23,39 @@
 
 ---
 
+## 12주차
+
+[동전 0](https://www.acmicpc.net/problem/11047)
+
+[회의실 배정](https://www.acmicpc.net/problem/1931)
+
+[로프](https://www.acmicpc.net/problem/2217)
+
+[보물](https://www.acmicpc.net/problem/1026)
+
+[ATM](https://www.acmicpc.net/problem/11399)
+
+[잃어버린 괄호](https://www.acmicpc.net/problem/1541)
+
+[주식](https://www.acmicpc.net/problem/11501)
+
+[체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
+
+[큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883)
+
+
+
+| date 	 |  summercat 	| Kyo     	| sunnycookie | hamo    	| inho    	|
+|:------:|:-----------: |:---------:|:-----------:|:---------:|:---------:|
+| 4.21   |              |  3문제 ✅  |             |           |           |
+| 4.22   |   2문제 ✅    |           |             |    1문제 ✅ |  2문제 ✅  |
+| 4.23   |              |           |             |           |           |
+| 4.24   |              |  2문제 ✅  |             |           | 1문제 ✅   |
+| 4.25   |              |           |   4문제 ✅   |    1문제 ✅ | 1문제 ✅   |
+| 4.26   |              |           |   3문제 ✅   |    3문제 ✅ | 3문제 ✅   |
+| 4.27   |              |           |   1문제 ✅   |    3문제 ✅ |           |
+
+
 ## 11주차
 
 [소문난 칠공주](https://www.acmicpc.net/problem/1941)
