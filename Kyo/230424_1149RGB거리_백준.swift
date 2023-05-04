@@ -1,4 +1,35 @@
 //230424_1149RGB거리_백준
+
+// 2회차
+let testcase = Int(readLine()!)!
+
+var array: [[Int]] = []
+
+for _ in 0..<testcase {
+    let input = readLine()!.split(separator: " ").map { Int(String($0))! }
+    array.append(input)
+}
+
+
+var dp: [[Int]] = Array(repeating: Array(repeating: 0, count: 3), count: testcase)
+/*
+ [O, O, O]
+ */
+dp[0][0] = array[0][0]
+dp[0][1] = array[0][1]
+dp[0][2] = array[0][2]
+
+for index in 1..<testcase {
+    dp[index][0] = min(dp[index - 1][1], dp[index - 1][2]) + array[index][0]
+    dp[index][1] = min(dp[index - 1][0], dp[index - 1][2]) + array[index][1]
+    dp[index][2] = min(dp[index - 1][0], dp[index - 1][1]) + array[index][2]
+}
+
+print(min(dp[testcase-1][0], dp[testcase-1][1], dp[testcase-1][2]))
+
+
+
+// 1회차
 let count = Int(readLine()!)!
 
 var array: [[Int]] = []
