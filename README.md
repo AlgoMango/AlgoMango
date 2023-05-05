@@ -23,6 +23,38 @@
 
 ---
 
+## 13주차
+
+[k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335)
+
+[주차요금계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341)
+
+[로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484)
+
+[신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410)
+
+[메뉴 리뉴얼](https://school.programmers.co.kr/learn/courses/30/lessons/72411)
+
+[두 큐 합 같게 만들기]
+
+[괄호 변환]
+
+[행렬 테두리 회전하기]
+
+[성격 유형 검사하기]
+
+| date 	 |  summercat 	| Kyo     	| sunnycookie | hamo    	| inho    	|
+|:------:|:-----------: |:---------:|:-----------:|:---------:|:---------:|
+| 5.05   |              |           |             |           |           |
+| 5.06   |              |           |             |           |           |
+| 5.07   |              |           |             |           |           |
+| 5.08   |              |           |             |           |           |
+| 5.09   |              |           |             |           |           |
+| 5.10   |              |           |             |           |           |
+| 5.11   |              |           |             |           |           |
+
+
+
 ## 12주차
 
 [동전 0](https://www.acmicpc.net/problem/11047)
