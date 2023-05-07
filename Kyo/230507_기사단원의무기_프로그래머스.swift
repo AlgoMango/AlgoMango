@@ -3,6 +3,25 @@ import Foundation
 
 func solution(_ number:Int, _ limit:Int, _ power:Int) -> Int {
     var answer = 0
+    
+    var array = Array(repeating: 0, count: number + 1)
+    
+    for num in 1..<number + 1 {
+        var current = num
+        
+        while current <= number {
+            array[current] += 1
+            current += num
+        }
+    }
+    
+    array = array.map { $0 > limit ? power : $0 }
+    return array.reduce(0, +)
+}
+
+/*
+func solution(_ number:Int, _ limit:Int, _ power:Int) -> Int {
+    var answer = 0
     var array = foundWeapons(number: number)
     
     for index in 1..<array.count {
@@ -17,8 +36,7 @@ func solution(_ number:Int, _ limit:Int, _ power:Int) -> Int {
     return answer
 }
 
-// 약수 갯수들 Return 
-// 일일이 하나씩 세면 시간초과 발생
+// 약수 갯수들 Return
 func foundWeapons(number: Int) -> [Int] {
     var array: [Int] = Array(repeating: 1, count: number + 1)
     
@@ -41,3 +59,4 @@ func foundWeapons(number: Int) -> [Int] {
     
     return array
 }
+*/
