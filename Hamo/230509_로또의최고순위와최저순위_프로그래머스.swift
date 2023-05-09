@@ -2,8 +2,7 @@ import Foundation
 
 func solution(_ lottos:[Int], _ win_nums:[Int]) -> [Int] {
     var correctCount = 0
-    var invisibleNumber = lottos.filter { $0 != 0 }
-    var result: [Int] = []
+    let invisibleNumber = lottos.filter { $0 != 0 }
     
     invisibleNumber.forEach {
         if win_nums.contains($0) {
