@@ -23,6 +23,22 @@
 
 ---
 
+## 14주차 - 2018 KAKAO BLIND RECRUITMENT / 월간 코드 챌린지 시즌3
+레벨 1~3 전부
+- [2018 KAKAO BLIND RECRUITMENT](https://school.programmers.co.kr/learn/challenges?order=recent&languages=swift&page=1&partIds=9317)
+- (옵셔널)[월간 코드 챌린지 시즌3](https://school.programmers.co.kr/learn/challenges?order=recent&languages=swift&page=1&partIds=23708)
+
+| date 	 |  summercat 	| Kyo     	| hamo    	| inho    	|
+|:------:|:-----------: |:---------:|:---------:|:---------:|
+| 5.05   |              |           |           |           |
+| 5.06   |              |  13문제 ✅ |           |           |
+| 5.07   |              |  11문제 ✅ |           |           |
+| 5.08   |              |  11문제 ✅ |   2문제 ✅ |           |
+| 5.09   |              |  8문제 ✅  |   2문제 ✅ |           |
+| 5.10   |              |  7문제 ✅  |   1문제 ✅  |           |
+| 5.11   |   2문제 ✅    |  6문제 ✅  |    1문제 ✅ |           |
+
+
 ## 13주차 - 프로그래머스 카카오 구현 문제들
 
 [k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335)
