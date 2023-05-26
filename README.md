@@ -23,6 +23,19 @@
 
 ---
 
+## 16주차 - 월간 코드 챌린지 시즌2
+레벨 1~3 전부
+- [월간 코드 챌린지 시즌2](https://school.programmers.co.kr/learn/challenges?order=recent&languages=swift&page=1&partIds=21163)
+| date 	 |  summercat 	| Kyo     	| hamo    	| inho    	|
+|:------:|:-----------: |:---------:|:---------:|:---------:|
+| 5.26   |              |           |           |           |
+| 5.27   |              |           |           |           |
+| 5.28   |              |           |           |           |
+| 5.29   |              |           |           |           |
+| 5.30   |              |           |           |           |
+| 5.31   |              |           |           |           |
+| 6.01   |              |           |           |           |
+
 ## 15주차 - 2018 KAKAO BLIND RECRUITMENT / 월간 코드 챌린지 시즌3
 레벨 1~3 전부
 - [2018 KAKAO BLIND RECRUITMENT](https://school.programmers.co.kr/learn/challenges?order=recent&languages=swift&page=1&partIds=9317)
