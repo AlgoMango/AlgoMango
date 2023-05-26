@@ -25,7 +25,8 @@
 
 ## 16주차 - 월간 코드 챌린지 시즌2
 레벨 1~3 전부
-- [월간 코드 챌린지 시즌2](https://school.programmers.co.kr/learn/challenges?order=recent&languages=swift&page=1&partIds=21163)
+- [월간 코드 챌린지 시즌2](https://school.programmers.co.kr/learn/challenges?order=recent&languages=swift&page=1&partIds=21163)  
+
 | date 	 |  summercat 	| Kyo     	| hamo    	| inho    	|
 |:------:|:-----------: |:---------:|:---------:|:---------:|
 | 5.26   |              |           |           |           |
