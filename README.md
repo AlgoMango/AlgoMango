@@ -23,6 +23,21 @@
 
 ---
 
+
+## 17주차 - 월간 코드 챌린지 시즌3
+레벨 1~3 전부
+- [월간 코드 챌린지 시즌3]([https://school.programmers.co.kr/learn/challenges?order=recent&languages=swift&page=1&partIds=21163](https://school.programmers.co.kr/learn/challenges?order=recent&languages=swift&partIds=23708&page=1))  
+
+| date 	 |  summercat 	| Kyo     	| hamo    	| inho    	|
+|:------:|:-----------: |:---------:|:---------:|:---------:|
+| 6.02   |              |           |           |           |
+| 6.03   |              |           |           |           |
+| 6.04   |              |           |           |           |
+| 6.05   |              |           |           |           |
+| 6.06   |              |           |           |           |
+| 6.07   |              |           |           |           |
+| 6.08   |              |           |           |           |
+
 ## 16주차 - 월간 코드 챌린지 시즌2
 레벨 1~3 전부
 - [월간 코드 챌린지 시즌2](https://school.programmers.co.kr/learn/challenges?order=recent&languages=swift&page=1&partIds=21163)  
