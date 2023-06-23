@@ -23,6 +23,23 @@
 
 ---
 
+## 리셋 1주차 (6/23 ~ 6/29)
+총 5문제 풀기 (파일 내에 푸는 데 걸린 시간 작성)
+- [1. 실3 - 주유소](https://www.acmicpc.net/problem/13305)
+- [2. 실2 - 창고 다각형](https://www.acmicpc.net/problem/2304)
+- [3. 실1 - 회전 초밥](https://www.acmicpc.net/problem/2531)
+- [4. 골5 - 컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)
+- [5. 골4 - 녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485)
+
+| problem |  summercat 	| Kyo     	| hamo    	| inho    	|
+|:-------:|:-----------:|:---------:|:---------:|:---------:|
+| 1️⃣      |              |           |           |           |
+| 2️⃣      |              |           |           |           |
+| 3️⃣      |              |           |           |           |
+| 4️⃣      |              |           |           |           |
+| 5️⃣      |              |           |           |           |
+
+---
 
 ## 17주차 - 월간 코드 챌린지 시즌3
 레벨 1~3 전부
