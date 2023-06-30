@@ -20,7 +20,7 @@
 - 개념 공부는 키워드 적힌거 보고 각자 알아서 진행합니다.
   - 추천도서: 스위프트 데이터 구조와 알고리즘
   - 자료구조 개념 유투브 추천: https://www.youtube.com/@eleanorlim
-
+- 리셋 이후 문제집: https://www.acmicpc.net/workbook/view/8708
 ---
 
 ## 리셋 2주차 (6/30 ~ 7/6)
