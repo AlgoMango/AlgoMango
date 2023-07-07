@@ -21,6 +21,25 @@
   - 추천도서: 스위프트 데이터 구조와 알고리즘
   - 자료구조 개념 유투브 추천: https://www.youtube.com/@eleanorlim
 - 리셋 이후 문제집: https://www.acmicpc.net/workbook/view/8708
+
+---
+
+## 리셋 3주차 (7/7 ~ 7/6)
+총 5문제 풀기 (파일 내에 푸는 데 걸린 시간 작성)
+- [1. 실4 - 스위치 켜고 끄기](https://www.acmicpc.net/problem/1244)
+- [2. 실2 - N번째 큰 수](https://www.acmicpc.net/problem/2075)
+- [3. 실1 - 볼 모으기](https://www.acmicpc.net/problem/17615)
+- [4. 골5 - 인구 이동](https://www.acmicpc.net/problem/16234)
+- [5. 골4 - 줄세우기](https://www.acmicpc.net/problem/2631)
+
+| problem |  summercat 	| Kyo     	| hamo    	| inho    	|
+|:-------:|:-----------:|:---------:|:---------:|:---------:|
+| 1️⃣      |           |        |           |           |
+| 2️⃣      |           |         |        |           |
+| 3️⃣      |             |        |           |           |
+| 4️⃣      |             |           |           |           |
+| 5️⃣      |           |        |           |           |
+
 ---
 
 ## 리셋 2주차 (6/30 ~ 7/6)
